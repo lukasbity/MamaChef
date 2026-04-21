@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <title>MamaChef - A tua cozinha, sem complicar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { background: #FAFAF7; font-family: 'DM Sans', sans-serif; overflow-x: hidden; }
+        #app { max-width: 420px; margin: 0 auto; background: #FAFAF7; min-height: 100vh; position: relative; }
+        ::-webkit-scrollbar { display: none; }
+        @keyframes fadeUp { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:translateY(0); } }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+        .fu { animation: fadeUp .3s ease both; }
+        .sr { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+    <script src="mamachef.js"></script>
+
+    <link rel="stylesheet" href="mamachefdesign.css">
+</body>
+</html>
